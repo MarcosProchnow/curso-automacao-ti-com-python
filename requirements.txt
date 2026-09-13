@@ -1,0 +1,10 @@
+# Automacao de TI com Python — dependencias do curso.
+# Cada uma entra na aula indicada; ate la, so biblioteca padrao.
+
+paramiko==4.0.0        # aula 5  — SSH
+netmiko==4.6.0         # aula 7  — switch, firewall e roteador
+python-dotenv==1.1.1   # aula 8  — segredo fora do codigo
+keyring==25.6.0        # aula 8  — cofre do sistema operacional
+requests==2.32.5       # aula 12 — API REST
+rich==14.1.0           # aula 14 — saida legivel no terminal
+openpyxl==3.1.5        # aula 11 — inventario em xlsx

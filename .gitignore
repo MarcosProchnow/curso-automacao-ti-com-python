@@ -1,0 +1,33 @@
+# --- Segredo: NUNCA versionar (aula 1 explica por que) ---
+.env
+.env.*
+*.pem
+*.key
+config.local.toml
+credenciais.json
+
+# --- Saida do proprio projeto (regeravel) ---
+backups/
+inventario.xlsx
+relatorio_*.csv
+*.db
+*.sqlite3
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# --- SO / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

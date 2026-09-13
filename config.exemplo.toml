@@ -1,0 +1,20 @@
+# Copie para config.toml e preencha com o SEU ambiente.
+# config.toml nao vai para o Git (esta no .gitignore) — aula 8 explica por que.
+
+[rede]
+faixa = "192.168.1.0/24"      # aula 9  — varredura
+timeout_s = 1
+
+[equipamentos]
+# aula 6 — a lista que o backup percorre
+hosts = ["192.168.1.1", "192.168.1.2"]
+usuario = "admin"
+# senha NAO vai aqui. Vem de variavel de ambiente ou do keyring (aula 8).
+
+[backup]
+destino = "backups"
+manter_dias = 30             # aula 1
+
+[alerta]
+disco_pct = 85               # aula 13
+telegram_chat_id = ""
